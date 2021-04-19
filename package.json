@@ -1,0 +1,72 @@
+{
+  "_from": "@exzeo/pdf-diff",
+  "_id": "@exzeo/pdf-diff@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-z0QuItnxP0AaODrTeDr98EYO5cBFpuiXZtxuPDsL4rrUhQiLAYCq//cEVE7+iIUEYfDT6Fgo+WGzRXynKcrWOg==",
+  "_location": "/@exzeo/pdf-diff",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@exzeo/pdf-diff",
+    "name": "@exzeo/pdf-diff",
+    "escapedName": "@exzeo%2fpdf-diff",
+    "scope": "@exzeo",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@exzeo/pdf-diff/-/pdf-diff-1.0.1.tgz",
+  "_shasum": "b8b952dda9ee762f9d9ea4226b219f4069fceadd",
+  "_spec": "@exzeo/pdf-diff",
+  "_where": "/Users/irelander/Desktop/03.Temporary/testCode",
+  "author": {
+    "name": "Greg Freeland"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "is-stream": "^2.0.0",
+    "lodash": "^4.17.15",
+    "multi-integer-range": "^4.0.8",
+    "pdfjs-dist": "^2.4.456",
+    "pixelmatch": "^5.2.0",
+    "pngjs": "^5.0.0"
+  },
+  "deprecated": false,
+  "description": "PDF utilities for comparing PDF files",
+  "devDependencies": {
+    "c8": "^7.1.2",
+    "chai": "^4.2.0",
+    "del": "^5.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-import": "^2.20.2",
+    "make-dir": "^3.1.0",
+    "mocha": "^7.1.2"
+  },
+  "homepage": "https://bitbucket.org/exzeo-usa/pdf-diff#readme",
+  "keywords": [
+    "chai",
+    "pdf"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@exzeo/pdf-diff",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/exzeo-usa/pdf-diff.git"
+  },
+  "scripts": {
+    "dev-test": "c8 mocha --all",
+    "lint": "eslint --ignore-pattern 'test*' .",
+    "pretest": "npm run lint",
+    "test": "c8 mocha --all"
+  },
+  "version": "1.0.1"
+}
