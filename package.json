@@ -68,5 +68,5 @@
     "pretest": "npm run lint",
     "test": "c8 mocha --all"
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
